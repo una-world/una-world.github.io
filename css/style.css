@@ -84,8 +84,9 @@ p {letter-spacing: 1px;font-weight: 500}
     display: block;
     width: 1000px;
     height: 470px;
-    background: url('../image/showphone.png') center;
+    background: url('../image/showphone.png');
 }
+
 .avatar {
     position: fixed;
     right: 5%;
@@ -106,7 +107,7 @@ p {letter-spacing: 1px;font-weight: 500}
 .avatar:hover p {
     opacity: 1;
 }
-.avatar a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active {
     color: #FF9900;
 }
 .avatar:hover {
@@ -365,6 +366,9 @@ footer p {
 } 
 @media screen and (max-width: 1300px) {
   .project .wrap{width: 85%}
+} 
+@media screen and (max-width: 1024px) {
+  
 } 
 @media screen and (max-width: 980px) {
   .showphone{left: 40%;}
