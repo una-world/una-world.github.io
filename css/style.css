@@ -382,11 +382,12 @@ footer p {
   .logo {right: 30%;}
 } 
 @media screen and (max-width: 640px) {
-  .title h3{font-size: 18px;}
+  .title h3{font-size: 18px; text-shadow: 1px 1px 8px black;}
   .showphone {left: 35%; bottom: -10%;}
   .logo {right: 25%; bottom: 2%;}
   .avatar {right: 82%;}
   .probox{width: 90%;}
+  footer .tri_left, .tri_right{ display: none;}
 }
 
 

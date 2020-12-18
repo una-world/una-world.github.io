@@ -1,14 +1,14 @@
-//background fadedown while scrolldown
+//background turning while scrolldown
 $(window).scroll(function() {
     var scrollwindow = $(this).scrollTop()
     if (scrollwindow > 1600) {
         $("body").css({
-            animation: 'none',
+            // animation: 'none',
             background: '#fff',
         })
     } else if (scrollwindow < 1600) {
         $("body").css({
-            animation: '',
+            // animation: '',
             background: '',
         })
     }
