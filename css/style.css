@@ -66,6 +66,7 @@ p {letter-spacing: 1px;font-weight: 500}
 .title h3 {
     font-size: 20px;
     text-align: center;
+    text-shadow: 1px 1px 6px black;
     transform: translateX(-50%);
 }
 .logo {
@@ -382,7 +383,7 @@ footer p {
   .logo {right: 30%;}
 } 
 @media screen and (max-width: 640px) {
-  .title h3{font-size: 18px; text-shadow: 1px 1px 8px black;}
+  .title h3{font-size: 18px;}
   .showphone {left: 35%; bottom: -10%;}
   .logo {right: 25%; bottom: 2%;}
   .avatar {right: 82%;}
